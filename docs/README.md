@@ -1,2 +1,4 @@
 Integrantes:
-- Matias Sanchez - 4to ciclo CS  
+- Matias Sanchez
+- Renato Flores
+- Carlos Angel
