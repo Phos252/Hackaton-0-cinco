@@ -8,9 +8,42 @@ def calculate(expression: str) -> float:
     a = float(a)
     b = float(b)
 
-    if op == '/':
-        if b == 0:
+    if(op == "/"):
+         division(a,b)
+
+    if(op == "+"):
+         suma(a,b)
+
+    if(op == "-"):
+         resta(a,b)
+
+    if(op == "*"):
+         suma(a,b)
+
+    if(op == "^"):
+         suma(a,b)
+         
+    pass
+
+def division(a,b):
+    if b == 0:
             raise ZeroDivisionError("No se puede dividir entre cero")
-        return a / b
-    else:
-        raise ValueError(f"Operador no soportado: {op}")
+    return a / b
+
+def suma(a,b):
+    print("suma")
+
+
+def resta(a,b):
+    print("suma")
+
+def suma(a,b):
+    print("suma")
+
+
+def multiplicacion(a,b):
+    print("suma")
+
+
+def potencia(a,b):
+    print("suma")
