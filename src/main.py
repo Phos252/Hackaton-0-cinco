@@ -43,7 +43,7 @@ def suma(a,b):
 
 
 def multiplicacion(a,b):
-    print("suma")
+    return a*b
 
 
 def potencia(a,b):
