@@ -18,10 +18,10 @@ def calculate(expression: str) -> float:
          resta(a,b)
 
     if(op == "*"):
-         suma(a,b)
+         multiplicacion(a,b)
 
     if(op == "^"):
-         suma(a,b)
+         potencia(a,b)
          
     pass
 
@@ -31,6 +31,7 @@ def division(a,b):
     return a / b
 
 def suma(a,b):
+    return a + b
     print("suma")
 
 
