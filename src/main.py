@@ -36,7 +36,7 @@ def suma(a,b):
 
 
 def resta(a,b):
-    print("suma")
+    return a - b
 
 def suma(a,b):
     print("suma")
