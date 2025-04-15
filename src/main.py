@@ -1,6 +1,6 @@
 def calculate() -> float:
     pass
 
-
-def suma(a: float, b: float) -> float:
+def suma(a: int, b: int) -> int:
     return a + b
+
