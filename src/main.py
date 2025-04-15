@@ -19,10 +19,8 @@ def calculate(expression: str) -> float:
 
     if(op == "*"):
          multiplicacion(a,b)
-
     if(op == "^"):
          potencia(a,b)
-         
     pass
 
 def division(a,b):
@@ -47,4 +45,5 @@ def multiplicacion(a,b):
 
 
 def potencia(a,b):
-    print("suma")
+    po=a**b
+    return po
